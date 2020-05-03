@@ -1,4 +1,6 @@
-# ansible-role-acme_client
+# `trombik.acme_client`
+
+[![Build Status](https://travis-ci.com/trombik/ansible-role-acme_client.svg?branch=master)](https://travis-ci.com/trombik/ansible-role-acme_client)
 
 Manage `acme-client(1)`, `acme-client.conf(5)`, and cron jobs.
 
