@@ -1,0 +1,6 @@
+---
+
+- name: Install acme_client
+  pkgng:
+    name: acme_client
+    state: present

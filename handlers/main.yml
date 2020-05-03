@@ -1,0 +1,6 @@
+---
+
+- name: Restart acme_client
+  service:
+    name: acme_client
+    state: restarted

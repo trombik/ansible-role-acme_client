@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  roles:
+    - ansible-role-acme_client
+  vars:
+    acme_client_config: ""

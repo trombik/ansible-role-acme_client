@@ -1,0 +1,9 @@
+---
+acme_client_user: acme_client
+acme_client_group: acme_client
+acme_client_log_dir: /var/log/acme_client
+acme_client_db_dir: "{{ __acme_client_db_dir }}"
+acme_client_service: acme_client
+acme_client_conf_dir: "{{ __acme_client_conf_dir }}"
+acme_client_conf_file: "{{ __acme_client_conf_dir }}/acme_client.conf"
+acme_client_flags: ""
