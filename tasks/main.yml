@@ -13,6 +13,12 @@
     path: "{{ acme_client_account_key_dir }}"
     mode: "0700"
 
+- name: Create acme_client_challengedirs
+  file:
+    state: directory
+    path: "{{ item }}"
+  with_items: "{{ acme_client_challengedirs }}"
+
 - name: Create acme-client.conf
   template:
     src: acme-client.conf.j2
